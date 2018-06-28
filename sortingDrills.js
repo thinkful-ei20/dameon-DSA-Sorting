@@ -11,54 +11,6 @@ let qSortArray = [ 89, 30, 25, 32, 72];
 //   return b - a;
 // }));
 
-// function swap(array, i, j) {
-//   const tmp = array[i];
-//   array[i] = array[j];
-//   array[j] = tmp;
-// }
-
-
-// function quickSort(array, start=0, end=array.length) {
-//   start = start;
-//   end = end;
-//   if (start >= end) {
-//     return array;
-//   }
-//   const middle = partition(array, start, end);
-//   array = quickSort(array, start, middle);
-//   array = quickSort(array, middle + 1, end);
-//   return array;
-// }
-
-
-// function partition(array, start, end) {
-//   const pivot = array[end - 1];
-//   let j = start;
-//   for (let i=start; i<end - 1; i++) {
-//     if (array[i] <= pivot) {
-//       swap(array, i, j);
-//       j++;
-//     }
-//   }
-  
-//   swap(array, end-1, j);
-//   return j;
-// }
-
-
-
-// quicksort creates a pivot,
-//           creates a wall
-          
-//           compares pivot to the each element, if element is less than pivot it puts it on the left of the wall,
-//           until the end of the loop then 
-//           it swaps the first element from the right side of the wall with the pivot
-
-//           then does it all over again recursively until sorted into array sizes of 0 or 1
-
-//
-
-
 
 let swap = (array, i, j) => {
   // create temporary varairable of first element before overwriting
