@@ -18,7 +18,7 @@ let swap = (array, i, j) => {
   // swap second element[j] with temporary element value 
 };
 
-let quickSort = (array , start, end) => {
+let quickSort = (array , start=0, end=array.length) => {
   // create a variable for the start position [which in this case is last element] to use
   // create a variable for the end position [which in this case is first element] to use
   // If the end element(start) is greater than the beginning element(end) return array
